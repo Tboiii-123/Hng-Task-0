@@ -6,4 +6,3 @@ urlpatterns = [
         path('api/',views.get_info, name='get-info'),
     ]
 
-    
