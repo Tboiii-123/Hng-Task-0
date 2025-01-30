@@ -13,7 +13,7 @@ def get_info(request):
     data ={
         'email':'lawalhussein775@gmail.com',
         'current_datetime':datetime.now().isoformat(),
-        "github_url": "https://github.com/your_username/project_repo"  
+        "github_url": "<https://github.com/Tboiii-123/Hng-Task-0>"  
     }
 
 
