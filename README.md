@@ -29,7 +29,7 @@ Response:
   "email": "lawalhussein775@gmail.com",
   "current_datetime": "2025-01-30T20:08:06.847424",
   "github_url": "<https://github.com/Tboiii-123/Hng-Task-0>"
-}
+}```
 
 
 Example Usage:
