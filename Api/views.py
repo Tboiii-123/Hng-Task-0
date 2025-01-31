@@ -1,7 +1,8 @@
 from django.shortcuts import render
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from datetime import datetime
+from datetime import datetime,timezone
+
 from rest_framework import status
 # Create your views here.
 
@@ -12,8 +13,8 @@ def get_info(request):
 
     data ={
         'email':'lawalhussein775@gmail.com',
-        'current_datetime':datetime.now().isoformat(),
-        "github_url": "<https://github.com/Tboiii-123/Hng-Task-0>"  
+        'current_datetime':datetime.now(timezone.utc).isoformat(),
+        "github_url": "https://github.com/Tboiii-123/Hng-Task-0"  
     }
 
 
