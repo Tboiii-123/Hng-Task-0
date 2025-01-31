@@ -13,7 +13,7 @@ def get_info(request):
 
     data ={
         'email':'lawalhussein775@gmail.com',
-        'current_datetime':datetime.now(timezone.utc).isoformat(),
+        'current_datetime': datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "github_url": "https://github.com/Tboiii-123/Hng-Task-0"  
     }
 
